@@ -1,12 +1,14 @@
 /* Referenciando Todos os Elementos do HTML */
 *{
-    background-color: yellow;
+    background-color: rgb(255, 255, 190);
 }
 
 /* Referenciando uma Classe */
 .souDivClasse{
     height: 100px;
     width: 100%;
+    margin: 100px; /*Aplicando uma margem nos 
+                   4 lados (Top, Bottom, Left, Right)*/
     background-color: rgb(235, 235, 233);
 }
 
@@ -14,10 +16,51 @@
 #souDivID{
     height: 100px;
     width: 100px;
-    background-color: brown;
+    background-color: rgb(42, 138, 165);
+    margin: 10px 30px 10px 30px; /*Aplicando margem em 
+                             Top, Right, Bottom e Left - 
+                             Sentido Horário*/
+    border: 2px solid;
+    border-color: black;
 }
 
 /* Referenciando uma TAG que tenha determinada Classe */
 p.souDivClasse{
-    font-size: 28px;      
+    font-size: 28px;  
+      
+}
+
+
+p.divPadding{
+    padding: 100px;
+    width: 50%;
+    border: 2px solid;
+    background-color: aqua;  
+}
+
+.block-element{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+
+}
+.inline-element{
+  display: inline;
+  background-color: lightsalmon;
+  padding: 5px;
+}
+
+.inline-block-element{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+.none-element{
+    display: none;
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
 }
