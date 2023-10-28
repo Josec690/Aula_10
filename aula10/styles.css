@@ -1,0 +1,23 @@
+/* Referenciando Todos os Elementos do HTML */
+*{
+    background-color: yellow;
+}
+
+/* Referenciando uma Classe */
+.souDivClasse{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(235, 235, 233);
+}
+
+/* Referenciando um ID */
+#souDivID{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+
+/* Referenciando uma TAG que tenha determinada Classe */
+p.souDivClasse{
+    font-size: 28px;      
+}
