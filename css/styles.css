@@ -1,0 +1,240 @@
+/* Referenciando Todos os Elementos do HTML */
+
+* {
+    background-color: rgb(254, 254, 253);
+}
+
+
+/* Referenciando uma Classe */
+
+.souDivClasse {
+    height: 100px;
+    width: 100%;
+    /*Aplicando uma margem nos 
+                   4 lados (Top, Bottom, Left, Right)*/
+    background-color: rgb(235, 235, 233);
+}
+
+
+/* Referenciando um ID */
+
+#souDivID {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(42, 138, 165);
+    border: 2px solid;
+    border-color: black;
+}
+
+
+/* Referenciando uma TAG que tenha determinada Classe */
+
+p.souDivClasse {
+    font-size: 28px;
+}
+
+p.divPadding {
+    padding: 100px;
+    width: 50%;
+    border: 2px solid;
+    background-color: aqua;
+}
+
+
+/* Margens */
+
+.margemQuatrolados {
+    background-color: rgb(42, 138, 165);
+    margin: 100px 30px 10px 30px;
+    color: white;
+    /*Aplicando margem em 
+                             Top, Right, Bottom e Left - 
+                             Sentido Horário*/
+}
+
+.margemTop {
+    background-color: rgb(42, 138, 165);
+    margin-top: 10%;
+    color: white;
+}
+
+.margemEsquerda {
+    background-color: orange;
+    margin-left: 10%;
+}
+
+.margemDireita {
+    background-color: aquamarine;
+    margin-right: 10%;
+}
+
+.margemInferior {
+    background-color: bisque;
+    margin-bottom: 10%;
+}
+
+
+/* preenchimento */
+
+.paddingQuatrolados {
+    background-color: rgb(42, 138, 165);
+    padding: 100px 30px 10px 30px;
+    color: white;
+    /*Aplicando padding em 
+                             Top, Right, Bottom e Left - 
+                             Sentido Horário*/
+}
+
+.paddingTop {
+    background-color: rgb(42, 138, 165);
+    padding-top: 10%;
+    color: white;
+}
+
+.paddingEsquerda {
+    background-color: orange;
+    padding-left: 10%;
+}
+
+.paddingDireita {
+    background-color: aquamarine;
+    padding-right: 10%;
+}
+
+.paddingInferior {
+    background-color: bisque;
+    padding-bottom: 10%;
+}
+
+
+/* display */
+
+.block-element {
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.inline-element {
+    display: inline;
+    background-color: lightsalmon;
+    padding: 5px;
+}
+
+.inline-block-element {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+
+.none-element {
+    display: none;
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+
+/*Position*/
+
+.static-box {
+    background-color: aquamarine;
+    position: static;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: aquamarine;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: aquamarine;
+}
+
+.parent {
+    position: relative;
+    border: 1px solid #ccc;
+    /* Adicionando uma borda para visualização */
+    padding: 40px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 30x;
+    left: 10px;
+    background-color: #f00;
+    /* Cor de fundo para visualização */
+    padding: 10px;
+    /* Adicionando algum espaço interno para visualização */
+    color: #fff;
+    /* Cor do texto para visualização */
+}
+
+
+/* Flex-Box */
+
+.flex-container-start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: aquamarine;
+}
+
+.flex-container-end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: aquamarine;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.flex-container-around {
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.flex-container-between {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.flex-container-start-vert {
+    display: flex;
+    align-items: start;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.flex-container-end-vert {
+    display: flex;
+    align-items: end;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.flex-container-est-vert {
+    display: flex;
+    align-items: stretch;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.flex-container-center-vert {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: aquamarine;
+}
